@@ -10,3 +10,7 @@ H1 {
     size: 500px;
     color: red;
 }
+
+#irelandDiv{
+    display: none;
+}
