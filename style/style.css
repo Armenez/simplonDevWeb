@@ -1,6 +1,3 @@
-H1 {
-    color: blueviolet;
-}
 
 .btn {
     background-color: cadetblue;
@@ -17,4 +14,9 @@ H1 {
 
 #hipDiv {
     display: none;
+}
+
+#bandeau {
+    color: black;
+    text-align: center;
 }
