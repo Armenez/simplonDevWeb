@@ -1,4 +1,6 @@
-
+body{
+    text-align: center
+}
 .btn {
     background-color: black;
     color: white;
@@ -34,4 +36,8 @@
 #bandeau {
     color: black;
     text-align: center;
+}
+
+#simon{
+    margin-top: 10em;
 }
