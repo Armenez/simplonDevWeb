@@ -2,7 +2,7 @@
 .btn {
     background-color: black;
     color: white;
-    box-shadow: 10px 5px 5px grey;
+    box-shadow: 10px 5px 8px grey;
     transition: all .5s
 
 }
@@ -14,14 +14,17 @@
     text-align: center
 }
 .accueil{
+    padding: 5px;
     background-color: #b4c0ce;
+    color: black;
+    font-size: 20px;
 }
 
-#bouton{
-    size: 500px;
-    color: red;
-    
+.darkmode{
+    background-color: black !important;
+    color: blanchedalmond !important;
 }
+  
 
 #irelandDiv{
     display: none;
@@ -32,6 +35,7 @@
 }
 
 #bandeau {
+    background-color: #b4c0ce;
     color: black;
     text-align: center;
 }
