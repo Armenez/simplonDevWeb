@@ -1,11 +1,26 @@
 
 .btn {
-    background-color: cadetblue;
+    background-color: black;
+    color: white;
+    box-shadow: 10px 5px 5px grey;
+    transition: all .5s
+
+}
+.btn:hover {
+    box-shadow: 2px 2px 2px black;
+    color: red
+}
+.center{
+    text-align: center
+}
+.accueil{
+    background-color: #b4c0ce;
 }
 
 #bouton{
     size: 500px;
     color: red;
+    
 }
 
 #irelandDiv{

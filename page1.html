@@ -32,36 +32,36 @@
             </ul>
         </div>
     </nav>
-</br>
     <div class='center'>
+    </br>
+        <h2>Do you know why people in Ireland are in lockdown again ?</h2>
+        <button class='btn' id='ireland' type=submit>There</button>
 
-    <h2>Qu'est qu'un coucours hippie ?</h2>
-
-    <button class="btn" id="hippie" type=submit>Sûr ?</button>
-
-    <div id="hipDiv">
-        <h2 class="cache">Une course de cheveux !!</h2>
-        <img class='cache'
-            src="https://img2.freepng.fr/20180324/uwe/kisspng-leonardo-dicaprio-jay-gatsby-the-great-gatsby-film-leonardo-dicaprio-5ab68382309d81.1446887215219106581991.jpg"
-            alt="Tu ne le regrettera pas">
+        <div id="irelandDiv">
+            <h2 class='cache'>Because infected people are dublin</h2>
+            <img class='cache'
+                src="https://cdn.discordapp.com/attachments/711843436369543258/770280629681389568/Ireland-ladys-and-gentlemen2.jpg"
+                alt="Tu ne le regrettera pas">
+        </div>
     </div>
-</div>
-    <script>
-        
-        let hippieIsShown = true
-        let monEltHippie = document.getElementById('hipDiv')
-        let boutonHippie = document.getElementById('hippie')
-        boutonHippie.addEventListener("click", displayHippie)
-        
-        function displayHippie(){
-            if (hippieIsShown) {
-                monEltHippie.style.display = 'block'
-                hippieIsShown = false;
 
+    <script>
+        let irelandIsShown = true
+        let monEltIreland = document.getElementById('irelandDiv')
+        let boutonIreland = document.getElementById('ireland')
+        boutonIreland.addEventListener("click", displayIreland)
+
+
+        function displayIreland() {
+
+            if (irelandIsShown) {
+                monEltIreland.style.display = 'block'
+                irelandIsShown = false;
             } else {
-                monEltHippie.style.display = 'none'
-                hippieIsShown = true;
+                monEltIreland.style.display = 'none'
+                irelandIsShown = true;
             }
         }
+
     </script>
 </body>
