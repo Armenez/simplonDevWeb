@@ -46,7 +46,9 @@
 
     <img src="./img/macron.jpeg" alt="" id='simon'>
     <div style="text-align:center">
+    </br>
     <h2>Nos collabrateur en parle mieux que nous :</h2>
+</br></br>
     <h3 id="musk">"Un petit moment de bonheur [...] un des site les plus drôle du moment !" nous raporte Musk E </h3>
     <h3 id="mite">"Une experience incroyable !!!" Mite Errent </h3>
     <h3 id="nat">"Une des ces perles du net, des contributeurs chaleureux, merci pour toute cette joie" Portman N </h3>
@@ -58,9 +60,9 @@
 $(document).ready(function(){
 
         gsap.fromTo("#simon", {opacity: 0}, {opacity: 1, duration: 1.5, ease: "elastic"});
-        gsap.fromTo("#simon", {width: 0}, {width: 600, duration: 1.5, ease: "elastic"});
+        gsap.fromTo("#simon", {width: 0}, {width: 700, duration: 1.5, ease: "elastic"});
 
-        TweenLite.to("#simon", 2, {rotation:360, transformOrigin:"left top"});
+        TweenLite.to("#simon", .7, {rotation:360});
 
 
     $("#darkTrigger").click(function(){
@@ -73,12 +75,12 @@ $(document).ready(function(){
     });
 
 
-        gsap.fromTo("#simon", { opacity: 0 }, { opacity: 1, duration: 2, ease: "bounce" });
-        gsap.fromTo("#simon", { width: 0 }, { width: 1200, duration: 3, ease: "bounce" });
+        gsap.fromTo("#simon", { opacity: 0 }, { opacity: 1, duration: 1, ease: "bounce" });
+        //gsap.fromTo("#simon", { fontSize: 0 }, { fontSize: 25, duration: .5, ease: "bounce" });
 
-        gsap.fromTo("#musk", { width: 0 }, { width: 600, duration: 3, ease: "rough" });
+        gsap.fromTo("#musk", { fontSize: 700 }, { fontSize: 25, duration: 1, ease: "rough" });
         //gsap.fromTo("#mite", { width: 0 }, { width: 600, duration: 3, ease: "steps" });
-       gsap.fromTo("#nat", { width: 0 }, { width: 1200, duration: 3, ease: "rough" });
+       gsap.fromTo("#nat", { left: -500 }, { left: 700, duration: 3, ease: "rough" });
 
         $("#darkTrigger").click(function () {
             if ($("body").hasClass("darkmode")) {
